@@ -1,0 +1,28 @@
+html{
+  min-height: 100%;
+  min-width: 100%;
+}
+body {
+margin: 0;
+padding: 0; 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:whitesmoke;
+background-position: center;
+background-size: cover;
+}
+form{
+  padding :20px;
+  margin-top: 60px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-style: rgb(128, 36, 0);
+  box-shadow: none;
+}
